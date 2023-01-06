@@ -18,4 +18,8 @@ public class StudentService {
     public void addStudent(Student student) {
         studentRepo.save(student);
     }
+
+    public void deleteStudent(Long id) {
+        studentRepo.deleteById(id);
+    }
 }
