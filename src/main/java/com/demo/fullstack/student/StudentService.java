@@ -29,6 +29,18 @@ public class StudentService {
         studentRepo.save(student);
     }
 
+    public void updateStudent(Long id, Student studentDetails) throws StudentNotFoundException {
+        Student student = studentRepo.findById(id)
+                .orElseThrow(() -> new StudentNotFoundException(
+                        "Student with id " + id + " does not exist"
+                ));
+        student.setName(studentDetails.getName());
+        student.setEmail(studentDetails.getEmail());
+        student.setGender(studentDetails.getGender());
+
+        studentRepo.save(student);
+    }
+
     public void deleteStudent(Long id) {
         Boolean foundStudent = studentRepo.existsById((id));
         if (!foundStudent) {
