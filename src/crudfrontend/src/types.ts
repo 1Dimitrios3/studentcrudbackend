@@ -5,8 +5,6 @@ export interface Response extends Record<string, any | unknown> {
 
 export interface Error extends Response {}
 
-export type CheckResponseFn = (value: Response) => any;
-
 export type MenuItem = Required<MenuProps>['items'][number];
 
 export type Column = Record<string, any>;
@@ -37,3 +35,11 @@ export function getItem(
       label,
     } as MenuItem;
   }
+
+export type ErrorResponse = {
+  error: string,
+  message: string,
+  path: string,
+  status: number,
+  timestamp: string
+}
