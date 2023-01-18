@@ -1,4 +1,8 @@
+/Users/dimitrismavrokefalos/Desktop/JAVA/crudbackend/src/main/java/com/demo/fullstack/student/exception/StudentNotFoundException.java
+/Users/dimitrismavrokefalos/Desktop/JAVA/crudbackend/src/main/java/com/demo/fullstack/student/exception/BadRequestException.java
 /Users/dimitrismavrokefalos/Desktop/JAVA/crudbackend/src/main/java/com/demo/fullstack/FullstackApplication.java
 /Users/dimitrismavrokefalos/Desktop/JAVA/crudbackend/src/main/java/com/demo/fullstack/student/Gender.java
+/Users/dimitrismavrokefalos/Desktop/JAVA/crudbackend/src/main/java/com/demo/fullstack/student/StudentService.java
 /Users/dimitrismavrokefalos/Desktop/JAVA/crudbackend/src/main/java/com/demo/fullstack/student/StudentController.java
+/Users/dimitrismavrokefalos/Desktop/JAVA/crudbackend/src/main/java/com/demo/fullstack/student/StudentRepo.java
 /Users/dimitrismavrokefalos/Desktop/JAVA/crudbackend/src/main/java/com/demo/fullstack/student/Student.java
