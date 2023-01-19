@@ -9,7 +9,7 @@ class FullstackApplicationTests {
 
 	@Test
 	void contextLoads() {
-		Assertions.fail("Ooops sth went wrong!");
+		Assertions.fail("Ooops sth went wrong again!");
 	}
 
 }
