@@ -92,7 +92,7 @@ function App() {
             />
         </div>
       </Content>
-      <Footer style={{ textAlign: 'center' }}>By Dimitris</Footer>
+      <Footer style={{ textAlign: 'center' }}>By Dimitris 2023</Footer>
     </Layout>
   </Layout>
   )
