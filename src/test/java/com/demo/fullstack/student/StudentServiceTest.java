@@ -73,14 +73,19 @@ class StudentServiceTest {
     @Test
     void canUpdateStudent() {
         Long id = 10L;
-        Student mockStudentDetails = new Student(
+        Student mockInitialStudent = new Student(
                 "test_user",
                 "testuser@gmail.com",
                 Gender.MALE
         );
+        Student mockStudentDetails = new Student(
+                "new_test_user",
+                "newtestuser@gmail.com",
+                Gender.MALE
+        );
 
         given(studentRepo.findById(id))
-                .willReturn(Optional.of(mockStudentDetails));
+                .willReturn(Optional.of(mockInitialStudent));
 
         testService.updateStudent(id, mockStudentDetails);
 
@@ -91,7 +96,7 @@ class StudentServiceTest {
 
         Student capturedStudent = studentArgumentCaptor.getValue();
 
-        assertThat(capturedStudent).isEqualTo(mockStudentDetails);
+        assertThat(capturedStudent).isEqualTo(mockInitialStudent);
     }
 
     @Test

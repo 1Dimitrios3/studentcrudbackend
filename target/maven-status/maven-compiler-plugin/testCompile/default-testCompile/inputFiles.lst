@@ -1,1 +1,4 @@
 /Users/dimitrismavrokefalos/Desktop/JAVA/crudbackend/src/test/java/com/demo/fullstack/FullstackApplicationTests.java
+/Users/dimitrismavrokefalos/Desktop/JAVA/crudbackend/src/test/java/com/demo/fullstack/integration/StudentIT.java
+/Users/dimitrismavrokefalos/Desktop/JAVA/crudbackend/src/test/java/com/demo/fullstack/student/StudentServiceTest.java
+/Users/dimitrismavrokefalos/Desktop/JAVA/crudbackend/src/test/java/com/demo/fullstack/student/StudentRepoTest.java

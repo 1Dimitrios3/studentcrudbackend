@@ -1,8 +1,0 @@
-com/demo/fullstack/student/StudentRepo.class
-com/demo/fullstack/student/exception/StudentNotFoundException.class
-com/demo/fullstack/student/exception/BadRequestException.class
-com/demo/fullstack/student/StudentController.class
-com/demo/fullstack/student/Student.class
-com/demo/fullstack/student/Gender.class
-com/demo/fullstack/FullstackApplication.class
-com/demo/fullstack/student/StudentService.class
